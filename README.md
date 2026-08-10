@@ -21,7 +21,7 @@ subtle film-grain finish for a printed-badge feel.
 Static site — serve the folder with anything:
 
 ```bash
-python3 serve.py    # then open http://localhost:8000  (no-cache static server)
+py -m http.server 8000    # then open http://localhost:8000  (no-cache static server)
 ```
 
 Deploy by dropping the folder on GitHub Pages / Netlify / Vercel / Cloudflare Pages.
